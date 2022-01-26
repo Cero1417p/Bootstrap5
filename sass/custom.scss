@@ -1,0 +1,30 @@
+@media (min-width:992px){
+    .alto-100{
+        height:100vh;
+    }
+}
+
+h6{
+    font-weight:bold
+}
+
+$primary:       #733fc8;
+$secondary:     #49556b;
+$success:       #edf2f8;
+$dark:          #18202d;
+
+.fondo-card{
+    background-image: url('../img/plane.svg');
+    background-repeat: no-repeat;
+    background-position: 50% top;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl:960px
+) ;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
